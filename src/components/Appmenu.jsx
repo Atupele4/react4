@@ -12,7 +12,7 @@ export default class Appmenu extends Component {
     render() {
 
         return (
-            <div className="col-2">
+            <div className="col-3">
                 <ul class="list-group">
                     {
                         this.state.myList.map((num) =>

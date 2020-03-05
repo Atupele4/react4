@@ -15,8 +15,6 @@ function App() {
 
         <br />
 
-        <Modal namex="Click Me" />
-
         <br />
         <br />
       </div>
@@ -24,6 +22,16 @@ function App() {
         <Appmenu />
 
         <div className="col">
+          <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Enter Item Description</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <button type="submit" class="btn btn-primary">Add Item</button>
+            </form>
+            <br />
+          </div>
           <Actionlist />
         </div>
       </div>
